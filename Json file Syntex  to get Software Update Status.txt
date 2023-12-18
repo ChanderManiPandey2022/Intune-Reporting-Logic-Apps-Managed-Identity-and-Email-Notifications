@@ -1,0 +1,27 @@
+Hello All,
+
+Please find the deployment status of the all update rings.
+
+👉  Deployment status of all update rings for all devices
+
+   ✔ CompliantDeviceCount : @{body('Parse_JSON')?['compliantDeviceCount']}
+   ✔ NonCompliantDeviceCount : @{body('Parse_JSON')?['nonCompliantDeviceCount']}
+   ✔ RemediatedDeviceCount : @{body('Parse_JSON')?['remediatedDeviceCount']}
+   ✔ ErrorDeviceCount : @{body('Parse_JSON')?['errorDeviceCount']}
+   ✔ UnknownDeviceCount : @{body('Parse_JSON')?['unknownDeviceCount']}
+   ✔ ConflictDeviceCount : @{body('Parse_JSON')?['conflictDeviceCount']}
+   ✔ NotApplicableDeviceCount : @{body('Parse_JSON')?['notApplicableDeviceCount']}
+
+
+👉  Deployment status of all update rings for all users
+
+   ✔ CompliantUserCount : @{body('Parse_JSON')?['compliantUserCount']}
+   ✔ NonCompliantUserCount : @{body('Parse_JSON')?['nonCompliantUserCount']}
+   ✔  RemediatedUserCount : @{body('Parse_JSON')?['remediatedUserCount']}
+   ✔ ErrorUserCount : @{body('Parse_JSON')?['errorUserCount']}
+   ✔ UnknownUserCount : @{body('Parse_JSON')?['unknownUserCount']}
+   ✔ ConflictUserCount : @{body('Parse_JSON')?['conflictUserCount']}
+   ✔ NotApplicableUserCount : @{body('Parse_JSON')?['notApplicableUserCount']}
+
+Best regards
+Patch Management Team
